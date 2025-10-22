@@ -282,3 +282,20 @@ button:hover {
   gap: 10px;
   background-color: azure;
 }
+.mission {
+  border-left: 4px solid #004aad;
+  border-right: 4px solid #004aad;
+  border-radius: 10px;
+}
+.contact_form {
+  border-left: 4px solid #004aad;
+  border-right: 4px solid #004aad;
+  border-radius: 10px;
+}
+.services_intro {
+  border-right: 4px solid #004aad;
+  border-radius: 10px;
+}
+.services_page {
+  background-color: azure;
+}
