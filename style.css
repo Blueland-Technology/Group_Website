@@ -55,7 +55,7 @@ nav ul li a:hover {
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(to right, #004aad, #0078ff);
+  background: linear-gradient(to right, #2e5991, #0078ff);
   color: white;
 }
 
@@ -125,4 +125,20 @@ button {
 
 button:hover {
   background: #003580;
+}
+
+.card {
+  margin-top: 26px;
+}
+
+.about {
+  margin-top: 26px;
+  background-color: azure;
+}
+#contact {
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: azure;
 }
