@@ -1,4 +1,17 @@
-<<<<<<< HEAD
+/* ---------- GLOBAL STYLES ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f8faff;
+  color: #222;
+  line-height: 1.6;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -136,21 +149,6 @@ button {
 button:hover {
   background: #003580;
 }
-=======
-/* ---------- GLOBAL STYLES ---------- */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-
-body {
-  background: #f8faff;
-  color: #222;
-  line-height: 1.6;
-}
-
 /* ---------- NAVIGATION ---------- */
 header {
   background: #004aad;
@@ -271,7 +269,6 @@ button:hover {
   border-radius: 10px;
   border-bottom: 4px solid #004aad;
   border-top: 4px solid #004aad;
-
 }
 
 .about {
@@ -285,4 +282,3 @@ button:hover {
   gap: 10px;
   background-color: azure;
 }
->>>>>>> 91e7f9f43f010ccf1fa4bf3ec98ef26a34c6c290
