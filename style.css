@@ -1,4 +1,4 @@
-/* ---------- GLOBAL STYLES ---------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* ---------- NAVIGATION ---------- */
+
 header {
   background: #004aad;
   color: #fff;
@@ -52,10 +52,11 @@ nav ul li a:hover {
   color: #ffd700;
 }
 
+
 .hero {
   text-align: center;
   padding: 80px 20px;
-  background: linear-gradient(to right, #2e5991, #0078ff);
+  background: linear-gradient(to right, #004aad, #0078ff);
   color: white;
 }
 
@@ -68,7 +69,7 @@ nav ul li a:hover {
   font-size: 1.1em;
 }
 
-/* ---------- CONTENT SECTION ---------- */
+
 section {
   width: 85%;
   margin: 40px auto;
@@ -87,7 +88,21 @@ section p {
   margin-bottom: 12px;
 }
 
-/* ---------- FOOTER ---------- */
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.member {
+  background: #f3f6ff;
+  border-left: 4px solid #004aad;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
 footer {
   background: #004aad;
   color: white;
@@ -95,11 +110,9 @@ footer {
   padding: 15px 0;
   margin-top: 50px;
   font-size: 0.9em;
-  margin-bottom: 0%;
-  position: relative;
 }
 
-/* ---------- CONTACT FORM ---------- */
+
 form {
   display: flex;
   flex-direction: column;
@@ -125,20 +138,4 @@ button {
 
 button:hover {
   background: #003580;
-}
-
-.card {
-  margin-top: 26px;
-}
-
-.about {
-  margin-top: 26px;
-  background-color: azure;
-}
-#contact {
-  margin-top: 18px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  background-color: azure;
 }
